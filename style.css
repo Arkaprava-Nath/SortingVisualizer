@@ -1,0 +1,114 @@
+body {
+    background-color: #452585;  
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+   
+}
+h2{
+    color:whitesmoke
+}
+.topbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.activate {
+    background-color: rgb(255, 69, 0);
+    border: 2px solid rgb(143, 23, 147);
+}
+.bar-number {
+   
+    z-index: 10; /* Ensure numbers are above the bars */
+}
+
+#algorithm-info {
+    
+    font-family: Arial, sans-serif;
+    color:#f9f9f9;
+    padding:4px;
+      /* Optional: improves readability */
+}
+
+#algorithm-info h2 {
+    color: #2e8b57;
+}
+
+#algorithm-info p {
+    font-size: 1.1em;
+    text-align: justify;  /* Justifies the text */
+    /* Adds space between paragraphs */
+}
+.sort-option {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.sort-option.active {
+    background-color: #218838; /* Highlight color for selected option */
+}
+.sort-option:hover {
+    background-color: #0056b3;
+}
+
+.generate-new {
+    margin-bottom: 20px;
+}
+
+.stage {
+    position: relative;
+    height: 250px;
+    border: 1px solid #130d0d;
+    margin: 10px auto;
+    width: 750px;
+    /*max-width: 600px;*/
+    overflow: hidden;
+    background: #f9f9f9;
+}
+.info{
+    border: 5px solid #7337db;
+    margin: 10px auto;
+    background-color: #c08deb;
+    padding:15px
+}
+
+
+
+
+.bar-number {
+    font-size: 12px;
+    color: white;
+}
+
+.bar {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    background-color: #007BFF;
+    transition: all 0.3s ease;
+}
+
+.bar:hover {
+    background-color: #0056b3;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}

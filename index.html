@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <button class="sort-option" id="1">Bubble Sort</button>
+            <button class="sort-option" id="2">Selection Sort</button>
+            <button class="sort-option" id="3">Insertion Sort</button>
+          
+            <button class="sort-option" id="4">Quick Sort</button>
+            <button class="sort-option" id="4">Heap Sort</button>
+        </div>
+        
+        <div class="generate-new">
+            <p style="color:white">Generate New Array</p>
+            <input type="number" name="size" max="20" min="1" value="10" id="nbar">
+            <button id="button">New Array</button>
+        </div>
+        <div class="button">
+            <button id="solvebtn">Solve</button>
+        </div>
+        <div>
+            <div class="stage" id="stage"></div>
+            <div class="info"> 
+                
+                    <h2>Sorting Algorithm Information</h2>
+                    <p id="algorithm-info">Select a sorting algorithm to view details.</p>
+                </div>
+                
+           
+        </div>
+      
+    </div>
+    <script src="app.js" type="module" defer></script>
+</body>
+</html>
